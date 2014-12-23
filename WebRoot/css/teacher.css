@@ -1,0 +1,83 @@
+.hiden_teacher_timetable{
+    display:none;
+}
+
+.hiden_teacher_modify{
+    display:none;
+}
+
+#show_teacher_info{
+    /*    height:490px;*/
+    width:400px;
+    margin-left:20px;
+    /*    background: #222;*/
+    border: 1px solid #444;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    border-radius: 13px 13px 13px 13px;
+}
+
+#show_teacher_info h1{
+    font: 150% 'YouYuan', arial, sans-serif;
+    margin-top:30px;
+    margin-left:40px;
+    /*    font-weight: bold;*/
+}
+#show_teacher_info p{
+    font: 130% 'YouYuan', arial, sans-serif;
+    margin-top:10px;
+    margin-left:40px;
+}
+#show_teacher_info label{
+    font: 130% 'YouYuan', arial, sans-serif;
+    margin-left:40px;
+}
+.change_teacher_info{
+    /*    width:100px;*/
+    font: 130% 'YouYuan', arial, sans-serif;
+    margin-left:300px;
+    margin-bottom:30px;
+    /*    background: #0DBBD5;*/
+    cursor: pointer;
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+.change_teacher_info:hover{
+    color: #99CCFF;
+}
+#teacher_select_timetable{
+    display:none;
+}
+#modify_teacher_form{
+    width:500px;
+    margin-left:20px;
+}
+#modify_teacher_form form h1{
+    font: 150% 'YouYuan', arial, sans-serif;
+}
+#modify_teacher_form form label {
+    font: 130% 'YouYuan', arial, sans-serif;
+}
+#modify_teacher_form form input {
+    font: 130% 'YouYuan', arial, sans-serif;
+    margin-bottom:10px;
+}
+
+.form_button{
+    background: #99CCFF;
+    -moz-border-radius:10px;/*��Firefox֧�֣�ʵ��Բ��Ч��*/
+    -webkit-border-radius:10px;/*��Safari,Chrome֧�֣�ʵ��Բ��Ч��*/
+    -khtml-border-radius:10px;/*��Safari,Chrome֧�֣�ʵ��Բ��Ч��*/
+    border-radius:10px;/*��Opera��Safari,Chrome֧�֣�ʵ��Բ��Ч��*/
+    font: 170% 'YouYuan', arial, sans-serif;
+    /*    font-weight:bold;*/
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form_button:hover{
+    background: #0DBBD5;
+    color: #FFFFFF;
+}
